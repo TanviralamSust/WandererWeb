@@ -1,0 +1,227 @@
+ * {
+     margin: 0;
+     padding: 0
+ }
+ 
+ .wrapper {
+     max-width: 780px;
+     margin: 0 auto;
+     font-family: 'Varela Round', sans-serif;
+ }
+ 
+ .wrapper_inner {
+     padding: 30px;
+     overflow: hidden;
+     border: 1px solid #E3E3E3;
+     border-radius: 5px;
+     color: #666
+ }
+ 
+ .logo {
+     padding: 5px 0;
+     min-height: 80px
+ }
+ 
+ .paypal img {
+     height: 40px;
+     margin-bottom: 0px
+ }
+ 
+ .btn_theme {
+     padding: 11px;
+     background: #E2E7EB;
+     text-align: center;
+     transition: .35s ease;
+     width: 100%;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     color: #666;
+     font-weight: 700;
+     margin-bottom: 10px
+ }
+ 
+ .btn_theme:hover {
+     background: #C5CCD1;
+ }
+ 
+ .btn_theme_submit {
+     padding: 11px;
+     background: #0070BA;
+     text-align: center;
+     transition: .35s ease;
+     width: 100%;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     color: #fff;
+     font-weight: 700;
+     margin-bottom: 10px
+ }
+ 
+ .btn_theme_submit:hover {
+     background: #005EA6;
+ }
+ 
+ .wrapper_inner button img {
+     height: 22px;
+     float: right
+ }
+ 
+ .wrapper_inner button {
+     margin-bottom: 10px;
+     font-size: 16px;
+     width: 100%
+ }
+ 
+ .wrapper_inner button:hover {
+     margin-bottom: 10px;
+     border-radius: 5px
+ }
+ /* button style-2 */
+ 
+ .btn_mol {
+     padding: 11px 20px;
+     position: relative;
+     z-index: 9;
+     display: inline-block;
+     border: 0px solid;
+     border-radius: 5px
+ }
+ 
+ .btn_mol:before {
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 0%;
+     -webkit-transition: 0.6s ease;
+     transition: 0.6s ease;
+     z-index: -9;
+     border-radius: 5px
+ }
+ 
+ .btn_mol:after {
+     content: "";
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+     height: 0%;
+     -webkit-transition: 0.6s ease;
+     transition: 0.6s ease;
+     z-index: -9;
+     border-radius: 5px
+ }
+ 
+ .btn_mol:hover:before {
+     height: 100%;
+     top: 0;
+     left: 0;
+     border-radius: 5px
+ }
+ 
+ .btn_mol:hover:after {
+     height: 100%;
+     bottom: 0;
+     right: 0;
+     border-radius: 5px
+ }
+ 
+ .btn_mol:active {
+     -webkit-box-shadow: 1px 1px 3px 1px #ecf0f1;
+     box-shadow: 1px 1px 3px 1px #ecf0f1;
+ }
+ 
+ .btn_mol input {
+     border: 0;
+     background: transparent;
+     font-size: 14px;
+     color: #fff;
+ }
+ /*end button style-2*/
+ /* btn_one color */
+ 
+ .btn_one {
+     background: #E2E7EB;
+     color: #333333;
+ }
+ 
+ .btn_one:hover {
+     color: #333;
+     border-radius: 5px
+ }
+ 
+ .btn_one input {
+     color: #333333;
+ }
+ 
+ .btn_one:before {
+     background: #DCDCDB;
+ }
+ 
+ .btn_one:after {
+     background: #DCDCDB;
+ }
+ 
+ .btn_two {
+     background: #FFB139;
+     color: #fff;
+     padding: 7px
+ }
+ 
+ .btn_two:before {
+     background: #FFC263;
+ }
+ 
+ .btn_two:after {
+     background: #FFC263;
+ }
+ 
+ button.top {
+     background: rgba(0, 0, 0, 0);
+     border: 0 solid;
+ }
+ 
+ .dropdown-menu li span {
+     float: right
+ }
+ 
+ .dropdown-menu li {
+     padding: 10px;
+     border-bottom: 1px solid #ddd
+ }
+ 
+ .dropdown-menu li:last-child {
+     border-bottom: 0px solid #ddd
+ }
+ 
+ .wrapper_inner .dropdown-menu {
+     width: 300px;
+     left: -190px
+ }
+ 
+ .footer_menu {
+     float: right
+ }
+ 
+ .footer_menu li {
+     list-style: none;
+     float: left;
+     margin-left: 7px;
+ }
+ 
+ .footer_menu li a {
+     color: #666
+ }
+ 
+ .wrapper_footer {
+     font-size: 12px;
+     padding: 15px 0;
+     color: #C5CCD1
+ }
+ 
+ .wrapper_footer a {
+     color: #FFC773
+ }

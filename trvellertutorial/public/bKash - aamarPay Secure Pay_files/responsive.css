@@ -1,0 +1,73 @@
+
+/* mobile Layout: 320px. */
+@media only screen and (min-width: 240px) and (max-width: 450px) {
+.checkout_area {min-height: auto;  border-radius: 10px 10px 0 0;}
+    .checkout_logo { text-align: center}
+    .checkout_right {padding: 0px; box-shadow: 0 0 3px 3px #ababab;}
+	.container { margin:0 10px;margin: 0 auto !important;}
+    .row { margin-left:0px;margin-right:0px;}
+	
+    .checkout_right_black {
+  margin-left: 0;
+  font-size: 10px;
+  line-height: 20px;
+  padding: 15px;
+}
+.checkout_right h1 {
+  font-size: 25px;
+}
+  .nice3 {width: 75%;margin-left: 0;}   
+    .header_logo {width: 100%; display: block; text-align: center}
+    p {text-align:center;}
+		.checkout h2 {font-size: 80%;}
+		
+
+	
+}
+
+/* mobile Layout: 320px. */
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+
+		.tooltipp:hover:after {  left: -25%;}
+}
+/* mobile Layout: 320px. */
+@media only screen and (min-width: 321px) and (max-width: 450px) {
+
+		.tooltipp:hover:after {  left: -15%;}
+}
+
+
+
+/* wide mobile Layout: 320px. */
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+ .nice3 {
+  width: 45%;
+}
+     .checkout_right_black {
+  font-size: 12px;
+}
+    .nice3 {width: 44%}
+	.container { margin:0 10px;margin: 0 auto !important;}
+    .row { margin-left:0px;margin-right:0px;}
+	.checkout_right {  box-shadow: -5px 3px 5px #ababab; }
+    
+}
+
+
+/* wide mobile Layout: 320px. */
+@media only screen and (min-width: 451px) and (max-width: 767px) {
+ .checkout_area {min-height: auto;  border-radius: 10px 10px 0 0;}
+    .checkout_logo { text-align: center}
+    .checkout_right {padding: 10px; box-shadow: 0 0 3px 3px #ababab;}
+    .nice3 {width: 44%;margin-left: 0;}
+    .header_logo {width: 100%; display: block; text-align: center}
+	p {text-align:center;}
+		.container { margin:0 10px;}
+    .row { margin-left:0px;margin-right:0px;}
+	.checkout h2 {font-size: 90%;}
+    
+}
+
+
+
+
